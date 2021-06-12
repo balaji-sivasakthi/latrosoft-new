@@ -1,3 +1,4 @@
+@import url(/Front-end/css/color.css);
 ::before,
 *,
 ::after {
@@ -13,5 +14,18 @@
   background-color: white;
   -webkit-box-shadow: gray 0px 2px 10px;
           box-shadow: gray 0px 2px 10px;
+}
+
+.top-panel nav ul {
+  margin: 25px;
+  float: right;
+  list-style: none;
+}
+
+.top-panel nav li {
+  font-size: 18px;
+  padding: 20px;
+  width: 100%;
+  display: inline;
 }
 /*# sourceMappingURL=style.css.map */

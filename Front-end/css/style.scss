@@ -1,3 +1,7 @@
+@import url(/Front-end/css/color.css);
+
+
+
 ::before,
 *,
 ::after{
@@ -15,6 +19,18 @@
                 height: 70px;
                 background-color: rgb(255, 255, 255);
                 box-shadow: gray 0px 2px 10px;
-            
+            ul{
+                    margin: 25px;
+                float: right;
+                list-style: none;
+                    
+                   
+            }
+            li{
+                    font-size: 18px;
+                    padding: 20px;
+                width: 100%;
+               display: inline;
+            }
         }
 }
