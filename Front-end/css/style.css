@@ -1,4 +1,4 @@
-@import url(color.css);
+/* @import url(color.css);
 @import url(typograpy.css);
 ::before,
 *,
@@ -35,5 +35,17 @@
   padding: 20px;
   width: 100%;
   display: inline;
+} */
+
+
+/* navigation bar */
+
+
+
+.nav-link{
+
+  font-size: 500px;
 }
+
+
 /*# sourceMappingURL=style.css.map */
