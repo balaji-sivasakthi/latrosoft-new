@@ -92,4 +92,62 @@ font-family: 'Montserrat', sans-serif;
   margin-top: 35px;
 }
 
+
+/* deramtoreality */
+
+
+
+
+
+#dreamtoreality{
+
+  background-color: #e7f3ff;
+  text-align: center;
+}
+
+
+.dreamtext{
+
+  padding-top: 50px;
+
+}
+.circle_image{
+
+height:475px;
+margin-top: 50px;
+
+}
+
+.dreamtorealityfull{
+
+margin: 0 400px;
+
+}
+
+
+/* companiesweworkedwith */
+
+
+#companiesweworkedwith{
+
+
+height: 500px;
+
+text-align: center;
+
+
+
+}
+
+.companiesweworkedwith{
+
+  margin: 0 400px;
+
+}
+
+.companiestext{
+
+  padding-top: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
