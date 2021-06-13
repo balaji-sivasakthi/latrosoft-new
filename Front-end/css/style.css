@@ -35,17 +35,61 @@
   padding: 20px;
   width: 100%;
   display: inline;
-} */
+}  */
 
 
 /* navigation bar */
 
 
 
-.nav-link{
+.navbar-brand{
 
-  font-size: 500px;
+  font-size: 2rem;
 }
 
+.nav-item{
+
+  padding: 0px 10px;
+font-size: 1.3rem;}
+body{
+  font-family: 'Varela Round', sans-serif;
+
+}
+
+
+
+#title{
+
+  margin: 0 250px;
+}
+
+.mountain_image{
+
+
+width: 104%;}
+
+.main-lghd{
+
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 100px;
+}
+
+.title-first-col{
+
+padding: 0 20px;
+
+font-family: 'Montserrat', sans-serif;
+
+
+}
+.main-lghd2{
+  font-family: 'Montserrat', sans-serif;
+
+}
+.top-button{
+
+  margin-top: 35px;
+}
 
 /*# sourceMappingURL=style.css.map */
