@@ -54,7 +54,7 @@
 
 .topbar .nav-bar-list li {
   width: 100%;
-  padding: 5px;
+  padding: 10px;
   display: inline;
 }
 
@@ -71,14 +71,16 @@
 }
 
 .topbar .nav-bar-list .start {
+  font-weight: bold;
   color: white;
   padding: 10px;
+  border-radius: 2px;
   border-width: 0;
   background-color: #01c76b;
 }
 
 .topbar .nav-bar-list .start:hover {
-  background-color: #00944f;
+  background-color: #00a53f;
 }
 
 .logo {
