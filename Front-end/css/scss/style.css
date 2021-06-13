@@ -1,5 +1,5 @@
-@import url(color.css);
-@import url(typograpy.css);
+@import url(./color.css);
+@import url(./typograpy.css);
 ::before,
 *,
 ::after {
@@ -35,5 +35,9 @@
   padding: 20px;
   width: 100%;
   display: inline;
+}
+
+.top-panel nav .brand {
+  font-size: 18px;
 }
 /*# sourceMappingURL=style.css.map */
