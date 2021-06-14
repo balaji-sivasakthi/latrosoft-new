@@ -1,0 +1,60 @@
+::before,
+*,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  -webkit-transition: all .3 ease;
+  transition: all .3 ease;
+}
+
+.side-bar {
+  height: 100vh;
+  width: 15%;
+  -webkit-box-shadow: #b4b4b4 5px 0px 5px;
+          box-shadow: #b4b4b4 5px 0px 5px;
+  background-color: #fc6621;
+}
+
+.side-bar nav ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 100%;
+  list-style: none;
+}
+
+.side-bar nav li {
+  padding: 20px;
+}
+
+.side-bar nav a {
+  color: honeydew;
+  text-decoration: none;
+}
+
+.side-bar nav li:hover {
+  background-color: #ff9d6f;
+}
+
+.top-panel {
+  color: white;
+  float: right;
+  margin-left: 15%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  width: 85%;
+  height: 70px;
+  background-color: #fc6621;
+  -webkit-box-shadow: #b4b4b4 0px 5px 5px;
+          box-shadow: #b4b4b4 0px 5px 5px;
+}
+
+.top-panel h4 {
+  padding: 20px;
+}
+/*# sourceMappingURL=admin.css.map */
