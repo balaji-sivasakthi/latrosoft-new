@@ -17,6 +17,7 @@ body {
 }
 
 .side-bar {
+  font-family: sans-serif;
   height: 100vh;
   width: 15%;
   -webkit-box-shadow: #a7a7a7 3px 0px 10px;
@@ -26,9 +27,8 @@ body {
 }
 
 .side-bar nav ul {
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   width: 100%;
   list-style: none;
 }
@@ -62,9 +62,12 @@ body {
   z-index: 99999;
   width: 85%;
   height: 70px;
+<<<<<<< HEAD
   background-color: #fc6621;
   -webkit-box-shadow: #b4b4b4 0px 5px 5px;
           box-shadow: #b4b4b4 0px 5px 5px;
+=======
+>>>>>>> 7301368dd623f4346db6d6020fde455e7cf150e0
   background: linear-gradient(10deg, white white);
   -webkit-box-shadow: #b6b6b6 0px 2px 10px;
           box-shadow: #b6b6b6 0px 2px 10px;
