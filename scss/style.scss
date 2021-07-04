@@ -1,0 +1,74 @@
+@import './color.scss';
+@import './variable.scss';
+@import './responsive.scss';
+
+::after,
+*,
+::before
+{
+
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    transition: all .5s ease;
+    font-family: $poppins;
+}
+
+body{
+    background-image: url('../assets/Ellipse\ 1.png');
+    background-repeat: no-repeat;
+}
+.primary{
+    color: $primary-color;
+}
+.hero{
+    height: 100vh;
+    .nav-bar{
+       
+        .mobile-toggle >div{
+           
+            margin-top: 5px;
+            height: 5px;
+            width:40px;
+            background-color: $primary-color;
+            display: none;
+
+       }
+       
+        .brand{
+            padding:  10px 0px;
+            color: $primary-color;
+            font-weight: 900;
+            font-size: $nav-brand;
+        }
+        .nav-list{
+            .active{
+                color: $primary-color;
+            }
+            ul{
+                display: inline;
+                padding: 0;
+                list-style: none;
+                li{
+                  padding: 10px;
+                  display: inline;  
+                }
+                a{
+                    color: rgb(48, 48, 48);
+                    font-weight: bold;
+                    font-size: $nav-font;
+                    text-decoration: none;
+                }
+            }
+            
+        }
+    }
+    .start-btn{
+        font-weight: bold;
+        color: white;
+        background-color: $primary-color;
+        border: 0;
+        &:hover{
+            background-color: $primary-hover;
+        }   
+    }
+}

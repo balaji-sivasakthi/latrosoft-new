@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap");
+@media (max-width: 1200px) {
+  .nav-list {
+    display: none;
+  }
+  .mobile-toggle div {
+    display: inline;
+  }
+}
+
+::after,
+*,
+::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("../assets/Ellipse 1.png");
+  background-repeat: no-repeat;
+}
+
+.primary {
+  color: #FF6E04;
+}
+
+.hero {
+  height: 100vh;
+}
+
+.hero .nav-bar .mobile-toggle > div {
+  margin-top: 5px;
+  height: 5px;
+  width: 40px;
+  background-color: #FF6E04;
+  display: none;
+}
+
+.hero .nav-bar .brand {
+  padding: 10px 0px;
+  color: #FF6E04;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.hero .nav-bar .nav-list .active {
+  color: #FF6E04;
+}
+
+.hero .nav-bar .nav-list ul {
+  display: inline;
+  padding: 0;
+  list-style: none;
+}
+
+.hero .nav-bar .nav-list ul li {
+  padding: 10px;
+  display: inline;
+}
+
+.hero .nav-bar .nav-list ul a {
+  color: #303030;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.hero .start-btn {
+  font-weight: bold;
+  color: white;
+  background-color: #FF6E04;
+  border: 0;
+}
+
+.hero .start-btn:hover {
+  background-color: #fc8c3d;
+}
+/*# sourceMappingURL=style.css.map */
