@@ -1,0 +1,57 @@
+@import './color.scss';
+@import './variable.scss';
+@media (max-width:1200px){
+ 
+        
+        .nav-list{
+            display: none;
+            text-align: center;
+            display: none;
+            top:70px;
+            left:0;
+            right: 0;
+            height: 400px;
+            position: absolute;
+            min-width: 100%;
+            background-color: $primary-color;
+            z-index: 999;
+            .active{
+                color: $primary-color;
+            }
+            button{
+                background-color: blanchedalmond !important;
+                color: $primary-color !important;
+            }
+            ul{
+                display: block !important;
+                padding: 0;
+                list-style: none;
+                li{
+                  padding: 10px;
+                  display: block !important;  
+                }
+                a{
+                    color: rgb(255, 255, 255) !important;
+                    font-weight: bold;
+                    font-size: $nav-font;
+                    text-decoration: none;
+                }
+            }
+        }
+    .start-btn{
+        width:100% !important;
+
+    }
+    
+    .mobile-menu{
+       
+        .line{
+            
+            height: 5px;
+            width: 30px;
+            background-color: $primary-color;
+            margin-top: 5px;
+          
+        }
+    }
+}
