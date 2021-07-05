@@ -1,7 +1,8 @@
 $(document).ready(function () {
     $('.mobile-menu').click(function () { 
+        $(".mobile-menu").toggleClass("mobile-menu-rotate");
         $('.nav-list').toggle(()=>{
-            $('.mobile-menu').addClass("mobile-menu-rotate");
+            
             $('.nav-list').show("slow");
         });
       
