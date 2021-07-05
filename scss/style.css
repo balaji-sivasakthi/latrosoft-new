@@ -1,10 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap");
 @media (max-width: 1200px) {
   .nav-list {
     display: none;
+    text-align: center;
+    display: none;
+    top: 70px;
+    left: 0;
+    right: 0;
+    height: 400px;
+    position: absolute;
+    min-width: 100%;
+    background-color: #FF6E04;
+    z-index: 999;
   }
-  .mobile-toggle div {
-    display: inline;
+  .nav-list .active {
+    color: #FF6E04;
+  }
+  .nav-list button {
+    background-color: blanchedalmond !important;
+    color: #FF6E04 !important;
+  }
+  .nav-list ul {
+    display: block !important;
+    padding: 0;
+    list-style: none;
+  }
+  .nav-list ul li {
+    padding: 10px;
+    display: block !important;
+  }
+  .nav-list ul a {
+    color: white !important;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .start-btn {
+    width: 100% !important;
+  }
+  .mobile-menu .line {
+    height: 5px;
+    width: 30px;
+    background-color: #FF6E04;
+    margin-top: 5px;
   }
 }
 
@@ -33,12 +72,10 @@ body {
   height: 100vh;
 }
 
-.hero .nav-bar .mobile-toggle > div {
-  margin-top: 5px;
-  height: 5px;
-  width: 40px;
-  background-color: #FF6E04;
-  display: none;
+.hero .nav-bar {
+  min-width: 100%;
+  height: 70px;
+  z-index: 99;
 }
 
 .hero .nav-bar .brand {
@@ -49,7 +86,7 @@ body {
 }
 
 .hero .nav-bar .nav-list .active {
-  color: #FF6E04;
+  color: #fc8c3d;
 }
 
 .hero .nav-bar .nav-list ul {
@@ -64,13 +101,14 @@ body {
 }
 
 .hero .nav-bar .nav-list ul a {
-  color: #303030;
+  color: #FF6E04;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
 }
 
 .hero .start-btn {
+  outline: none;
   font-weight: bold;
   color: white;
   background-color: #FF6E04;
@@ -79,5 +117,16 @@ body {
 
 .hero .start-btn:hover {
   background-color: #fc8c3d;
+}
+
+.hero .hero-section .hero-right img {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.mobile-menu-rotate div {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
 }
 /*# sourceMappingURL=style.css.map */
