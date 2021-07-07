@@ -82,3 +82,91 @@ body{
     transform: rotate(30deg);
 
 }
+
+.proposal{
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+    background-color: rgba(26, 26, 26, 0.8);
+   
+    display: none;
+   
+    .box{
+        border-radius: 5px;
+        margin: 20px;
+        position: absolute;
+        top: 0;left: 0; right: 0; bottom: 0;
+        box-shadow: rgba(90, 90, 90, 0.39) 0px 0px 10px 5px;
+        background-color: white;
+    
+        .close{
+            padding: 10px;
+            background-color: $primary-color;
+            color: white;
+            cursor: pointer;
+            margin: 20px;
+            position: absolute;
+            top:0;
+            right:0;
+        }
+        .main{
+            font-size: 18px;
+            margin: 20px;
+            position: absolute;
+            top: 100px;left: 0;right: 0;bottom: 0;
+            padding: 30px;
+            .form-group{
+              
+                .ls-input{
+                    
+                    border-width:0 0 3px 0 !important;
+                    outline: none;
+                   &:hover{
+                   
+                   }
+                }
+            }
+           
+        }
+        .footer{
+            border-radius: 5px;
+            width: 50px;
+            background-color: $primary-color;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            .slider{
+               font-weight: 800;
+              
+                .up{
+                    cursor: pointer;
+                    padding: 10px;
+                    color: white;
+                    text-align: center;
+                    &:hover{
+                        background-color: $primary-hover;
+                    }
+                }
+                
+                .down{
+                    cursor: pointer;
+                    padding: 10px;
+                    border-style: solid;
+                    border: 0;
+                    color: white;
+                    text-align: center;
+                    transform: rotate(180deg);
+                    &:hover{
+                        background-color: $primary-hover;
+                    }
+                }
+            }
+            
+        }
+    }
+   
+}

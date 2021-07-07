@@ -14,4 +14,14 @@ $(document).ready(function () {
         $('.link').removeClass("active");
         $(this).addClass("active");
     });
+
+    //proposal
+    $('.start-btn').click(function () { 
+        $('.proposal').toggle();
+        
+    });
+    $('.close').click(function () { 
+        $('.proposal').hide();
+        
+    });
 });
