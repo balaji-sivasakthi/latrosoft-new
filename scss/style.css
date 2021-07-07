@@ -86,7 +86,7 @@ body {
 }
 
 .hero .nav-bar .nav-list .active {
-  color: #f81212;
+  color: #FF6E04;
 }
 
 .hero .nav-bar .nav-list ul {
@@ -101,7 +101,7 @@ body {
 }
 
 .hero .nav-bar .nav-list ul a {
-  color: #FF6E04;
+  color: black;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
