@@ -10,10 +10,10 @@ $(document).ready(function () {
     });
 
     //Add active class for navBar
-    $('.link').click(function (){
-        $('.link').removeClass("active");
-        $(this).addClass("active");
-    });
+    // $('.link').click(function (){
+    //     $('.link').removeClass("active");
+    //     $(this).addClass("active");
+    // });
 
     //proposal
     $('.start-btn').click(function () { 
