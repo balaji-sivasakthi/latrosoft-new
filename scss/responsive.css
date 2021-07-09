@@ -1,5 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap");
 @media (max-width: 1200px) {
+  .min-dis {
+    margin-top: 40px;
+  }
+  .testimonial .carosel-container {
+    max-width: 100%;
+  }
+  .testimonial .carosel-container .item-1 {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .testimonial .carosel-container .item-1 .item1-image {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+  }
+  .testimonial .carosel-container .item-1 .item1-image img {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+  }
+  .arrow {
+    display: none !important;
+  }
   .nav-list {
     display: none;
     text-align: center;
