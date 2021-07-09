@@ -24,4 +24,14 @@ $(document).ready(function () {
         $('.proposal').hide();
         
     });
+
+    $('pro').click(function () { 
+    
+        
+    });
+
+
+
+
+
 });

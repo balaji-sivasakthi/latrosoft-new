@@ -84,7 +84,8 @@ body{
 }
 
 .proposal{
-  
+    
+    overflow-y: hidden !important;
     position: absolute;
     top: 0;
     left: 0;
@@ -125,9 +126,7 @@ body{
                     
                     border-width:0 0 3px 0 !important;
                     outline: none;
-                   &:hover{
-                     color: white;
-                   }
+                  
                 }
             }
            
@@ -233,7 +232,7 @@ body{
         .front{
             bottom: -30px;
             // left: 0;
-            left: 47%;
+            left: 45%;
             transform: translate(-50%, -50%);
         }
         .middle{
@@ -247,7 +246,7 @@ body{
         .last{
             bottom: -30px;
             // right: 0;
-            left: 53%;
+            left: 55%;
             transform: translate(-50%, -50%);
         }
         
@@ -271,6 +270,7 @@ body{
     height: 50vh;
     
     .start-btn{
+        text-decoration: none;
         outline: none;
         font-weight: bold;
         color: white;
