@@ -365,6 +365,7 @@ body {
   background-color: #fc8c3d;
 }
 
+
 footer {
   background-color: #FF6E04;
   height: 50vh;
@@ -537,6 +538,9 @@ footer .copyright {
   font-weight: 300;
   text-align: center;
   margin-top: 100px;
+=======
+.active-1 {
+  background-color: #fc8c3d !important;
 }
 
 .active-1 {
