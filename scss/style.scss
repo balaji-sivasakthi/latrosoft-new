@@ -173,9 +173,9 @@ body{
 
 .minds{
     
-    .mind-img{
+    .mind-img img{
         
-        width: 100%;
+        max-width: 100%;
     }
     .title{
         .mind-para{
@@ -185,11 +185,14 @@ body{
     
     }
 }
+
 .testimonial{
+   
     .carosel-container{
         border-radius: 10px;
         background-color: $carosel-bg;
         position: relative;
+        
         .arrow{
             display: flex;
             justify-content: center;
@@ -217,30 +220,39 @@ body{
         .forward{
             right: -130px;
         } 
-        .line{
+       
+        .circle{
             position: absolute;
-           width: 100px;
+           width: 10px;
+           border-radius: 10px 10px 10px 10px;
            height: 10px;
+           border-radius: 50%;
            background-color: $primary-color;
            z-index: 11;
         }
         .front{
             bottom: -30px;
-            left: 0;
+            // left: 0;
+            left: 47%;
+            transform: translate(-50%, -50%);
         }
         .middle{
-            
-            right: 50%;
-            
-            bottom: -30px;
+           bottom: -30px;
+        //    left: 50%;
+        //    transform: translate(-50%, -50%);
+        left: 50%;
+        transform: translate(-50%, -50%);
             
         }
         .last{
             bottom: -30px;
-            right: 0;
+            // right: 0;
+            left: 53%;
+            transform: translate(-50%, -50%);
         }
         
         }
+        
     .item-1{
         
         .item1-image{
@@ -249,6 +261,7 @@ body{
                 height: 100%;
                 border-radius: 50%;
             }
+            
     } 
 }
 
@@ -269,4 +282,6 @@ body{
 }
 
 
-
+.active-1{
+    background-color: $primary-hover !important;
+}
