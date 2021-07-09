@@ -1,6 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap");
 @media (max-width: 1200px) {
+  .min-dis {
+    margin-top: 40px;
+  }
+  .testimonial .carosel-container {
+    max-width: 100%;
+  }
+  .testimonial .carosel-container .item-1 {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .testimonial .carosel-container .item-1 .item1-image {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+  }
+  .testimonial .carosel-container .item-1 .item1-image img {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+  }
+  .arrow {
+    display: none !important;
+  }
   .nav-list {
     display: none;
     text-align: center;
@@ -131,6 +172,7 @@ body {
 }
 
 .proposal {
+  overflow-y: hidden !important;
   position: absolute;
   top: 0;
   left: 0;
@@ -178,10 +220,6 @@ body {
 .proposal .box .main .form-group .ls-input {
   border-width: 0 0 3px 0 !important;
   outline: none;
-}
-
-.proposal .box .main .form-group .ls-input:hover {
-  color: white;
 }
 
 .proposal .box .footer {
@@ -285,7 +323,7 @@ body {
 
 .testimonial .carosel-container .front {
   bottom: -30px;
-  left: 47%;
+  left: 45%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
@@ -299,7 +337,7 @@ body {
 
 .testimonial .carosel-container .last {
   bottom: -30px;
-  left: 53%;
+  left: 55%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
@@ -315,6 +353,7 @@ body {
 }
 
 .prop-footer .start-btn {
+  text-decoration: none;
   outline: none;
   font-weight: bold;
   color: white;

@@ -1,8 +1,37 @@
 @import './color.scss';
 @import './variable.scss';
 @media (max-width:1200px){
- 
-        
+    .min-dis{
+        margin-top: 40px;
+    }
+    .testimonial{
+        .carosel-container{
+            max-width: 100%;
+            .item-1{
+                      max-width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: wrap;
+                .item1-image {
+                    max-width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    img{
+                        width: 70%;
+                        height: 70%;
+                        border-radius: 50%;
+
+                    }
+                }
+            }
+        }
+    }
+    .arrow{
+        display: none !important;
+    }
         .nav-list{
             display: none;
             text-align: center;
@@ -54,4 +83,5 @@
           
         }
     }
+   
 }
