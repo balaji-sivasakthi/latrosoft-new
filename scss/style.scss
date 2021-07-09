@@ -1,7 +1,6 @@
 @import './color.scss';
 @import './variable.scss';
 @import './responsive.scss';
-
 ::after,
 *,
 ::before
@@ -266,6 +265,136 @@ body{
         &:hover{
             background-color: $primary-hover;
        }   }
+}
+  
+footer{
+    background-color: $primary-color;
+    height: 50vh;
+    width: 100%;
+    font-family: $poppins;
+    color: $footerh4-color;
+    padding-left: -50px;
+    
+ 
+          
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-end;
+        
+        
+
+    img{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        margin-left: -70px;
+        margin-top: 40px;
+    }
+    .Latrosoft{
+        width: 400px;
+        margin-top: 40px;
+        margin-left: -10px;
+        display: flex;
+        align-items: flex-start;
+        justify-self: center;
+        flex-direction: column;
+        
+        h2{
+            font-weight: 800;
+            margin-top: -40px;
+        }
+         p{
+             text-align: justify;
+             margin-left: -60px;
+             margin-top: 20px;
+             font-weight: 300;
+         }
+    }
+    .overview{
+       display: flex;
+       justify-content: center;
+      
+       flex-direction: column;
+       margin-left: 60px;
+       padding: 0;
+      
+       h2{
+        font-weight: 800;
+        
+       }
+       ul{
+        list-style: none;
+        
+        }
+       a{
+        text-decoration: none;
+        color:$footerh4-color;
+        font-weight: 300;
+        transition: all 0.3s ease;
+        
+        &:hover{
+            color: $footerh4-color;
+            padding-left: 10px;
+        }
+       }  
+    }
+     .links{
+        display: flex;
+       justify-content: center;
+       flex-direction: column;
+       margin-left: 20px; 
+       h2{
+           font-weight: 800;
+       }
+       ul{
+           list-style: none;
+           a{
+            text-decoration: none;
+            color:$footerh4-color;
+            font-weight: 300;
+            transition: all ease 0.3s;
+            &:hover{
+                color: $footerh4-color;
+                padding-left: 10px;
+            }
+           }  
+       }
+     }  .contact{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        h2{
+            font-weight: 800;
+        }
+        ul{
+            padding: 0;
+            a{
+                text-decoration: none;
+                color: $footerh4-color;
+                font-weight: 300;
+                transition: all ease 0.3s;
+              
+                i{
+                    font-size: 40px;
+                   
+                }
+                
+            }
+        }
+     }
+    }
+    .copyright{
+        font-weight: 300;
+        text-align: center;
+       margin-top: 100px;
+    }
+
+
+
 }
 
 
