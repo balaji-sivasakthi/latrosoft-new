@@ -365,6 +365,180 @@ body {
   background-color: #fc8c3d;
 }
 
+
+footer {
+  background-color: #FF6E04;
+  height: 50vh;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  padding-left: -50px;
+}
+
+footer .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+footer .footer img {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin-left: -70px;
+  margin-top: 40px;
+}
+
+footer .footer .Latrosoft {
+  width: 400px;
+  margin-top: 40px;
+  margin-left: -10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  justify-self: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer .Latrosoft h2 {
+  font-weight: 800;
+  margin-top: -40px;
+}
+
+footer .footer .Latrosoft p {
+  text-align: justify;
+  margin-left: -60px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+footer .footer .overview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 60px;
+  padding: 0;
+}
+
+footer .footer .overview h2 {
+  font-weight: 800;
+}
+
+footer .footer .overview ul {
+  list-style: none;
+}
+
+footer .footer .overview a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+footer .footer .overview a:hover {
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+footer .footer .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 20px;
+}
+
+footer .footer .links h2 {
+  font-weight: 800;
+}
+
+footer .footer .links ul {
+  list-style: none;
+}
+
+footer .footer .links ul a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+footer .footer .links ul a:hover {
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+footer .footer .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+footer .footer .contact h2 {
+  font-weight: 800;
+}
+
+footer .footer .contact ul {
+  padding: 0;
+}
+
+footer .footer .contact ul a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+footer .footer .contact ul a i {
+  font-size: 40px;
+}
+
+footer .copyright {
+  font-weight: 300;
+  text-align: center;
+  margin-top: 100px;
+=======
 .active-1 {
   background-color: #fc8c3d !important;
 }
