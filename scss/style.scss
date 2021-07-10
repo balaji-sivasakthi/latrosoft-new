@@ -12,7 +12,7 @@
     font-family: $poppins;
 }
 
-body{
+.home{
     background-image: url('../assets/Ellipse\ 1.png');
     background-repeat: no-repeat;
 }
@@ -390,8 +390,80 @@ body{
     
 }
    
-
-
 .active-1{
     background-color: $primary-hover !important;
+}
+
+
+//Road Map
+.road-map{
+    .circle{
+       
+        padding: 15px;
+        color: #2E2E2E;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height:250px;
+        border-radius: 50%;
+        border: 2px solid #000000;
+        background-color: rgba(255, 0, 0, 0.11);
+        margin: 5px;
+        h4{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+    
+        }
+ }
+    .line-1{
+        height: 100vh;
+
+        position: relative;
+        .line-one{
+            height: 50vh;
+           
+            svg{
+                row-gap: 5;
+                position: absolute;
+                top: 0;
+                left: 30%;
+            }
+        }
+        .line-two{
+            height: 50vh;
+           
+            svg{
+                position: absolute;
+                bottom: -60%;
+                left: 10%;
+                
+            }
+        }
+        .line-three{
+            position: absolute;
+            left: 55%;
+        }
+         .c-1{
+            position: absolute;
+            top: 0;
+            left: 0;
+         }      
+        .c-2{
+            position: absolute;
+            top: 50%;
+            right: 0;
+         }
+         .c-3{
+             position: absolute;
+             top: 30%;
+         }
+        
+}
+  
 }
