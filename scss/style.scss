@@ -66,6 +66,7 @@
         }   
     }
     .hero-section{
+         
         .hero-right{
             img{
                 padding: 20px;
@@ -377,10 +378,13 @@
                     
                     color: $primary-color;
                    background-color: white;
+               
                 }
+               
                }  
          }
       }  
+      
       .copyright{
       
        margin-top: 10px;
@@ -394,6 +398,79 @@
     background-color: $primary-hover !important;
 }
 
+// Services
+.hero-services {
+   
+    background-color: $services-color;
+    height: 60vh;  
+    .hero-s-inner{
+      height: 100%;
+      .row{
+        height: 100%;
+        .title{
+            height: 100%;
+            h1{
+               font-size: 30px;
+            }
+            .start-btn{
+                text-decoration: none;
+                outline: none;
+                font-weight: bold;
+                color: white;
+                background-color: $primary-color;
+                border: 0;
+                
+                &:hover{
+                    background-color: $primary-hover;
+               }   }
+        }
+        .img{
+            height: 100%;
+        }
+      }
+    }
+  
+}
+
+
+//Digital
+.digital{
+    
+    .digital-box{
+        .box{
+            width: 200px;
+            height: 178px;
+            background-color: $services-color;
+            float: left;
+            margin: 30px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p{
+                font-size: 14px;
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+        
+    }
+}
+
+// Transparent
+.transparent{
+  .box{
+      h4{
+          margin-top: 20px;
+          font-weight: bold;
+      }
+      p{
+          margin: 20px;
+          text-align: center;
+      }
+  }
+}
 
 //Road Map
 .road-map{
@@ -432,7 +509,7 @@
                 row-gap: 5;
                 position: absolute;
                 top: 0;
-                left: 30%;
+                left: 25%;
             }
         }
         .line-two{
@@ -440,9 +517,8 @@
            
             svg{
                 position: absolute;
-                bottom: -60%;
-                left: 10%;
-                
+                top: 40%;
+                left: 7%;     
             }
         }
         .line-three{
@@ -456,12 +532,13 @@
          }      
         .c-2{
             position: absolute;
-            top: 50%;
+            top: 30%;
             right: 0;
          }
          .c-3{
              position: absolute;
-             top: 30%;
+             top: -15%;
+             left: 0;
          }
         
 }
