@@ -531,7 +531,7 @@
 
 .transparent .box p {
   margin: 20px;
-  text-align: center;
+  font-size: 15px;
 }
 
 .road-map .circle {
