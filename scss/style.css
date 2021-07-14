@@ -460,7 +460,6 @@
 
 .hero-services {
   background-color: rgba(255, 0, 0, 0.11);
-  height: 60vh;
 }
 
 .hero-services .hero-s-inner {
@@ -497,10 +496,8 @@
 }
 
 .digital .digital-box .box {
-  width: 200px;
-  height: 178px;
+  height: 200px;
   background-color: rgba(255, 0, 0, 0.11);
-  float: left;
   margin: 30px;
   border-radius: 15px;
   display: -webkit-box;
@@ -642,10 +639,6 @@
   top: 95%;
 }
 
-.hero-technology {
-  height: 60vh;
-}
-
 .hero-technology .hero-s-inner {
   height: 100%;
 }
@@ -674,37 +667,25 @@
   background-color: #fc8c3d;
 }
 
-.hero-technology .hero-s-inner .row .img {
+.hero-technology .hero-s-inner .row .img img {
+  width: 100%;
   height: 100%;
 }
 
-.tools {
-  margin-bottom: 100px;
+.tools .tools-box .tools-card {
+  height: 200px;
+  background-color: rgba(255, 0, 0, 0.11);
+  border-radius: 15px;
 }
 
-.tools .box {
-  width: 400px;
-  height: 400px;
-  background-color: rgba(255, 0, 0, 0.11);
-  margin: 10px;
-  border-radius: 15px;
+.tools .tools-box .tools-card .img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
-.tools .box h2 {
-  font-weight: bold;
-  text-align: center;
-  margin-top: 10px;
-  line-height: 50px;
+.tools .tools-box .tools-card .img img {
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
