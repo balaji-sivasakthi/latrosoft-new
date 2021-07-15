@@ -402,7 +402,7 @@
 .hero-services {
 
     background-color: $services-color;
-    height: 60vh;
+   
     .hero-s-inner{
       height: 100%;
       .row{
@@ -438,10 +438,10 @@
 
     .digital-box{
         .box{
-            width: 200px;
-            height: 178px;
+           
+            height: 200px;
             background-color: $services-color;
-            float: left;
+          
             margin: 30px;
             border-radius: 15px;
             display: flex;
@@ -576,7 +576,7 @@
 // Technology
 
 .hero-technology {
-    height: 60vh;
+    
     .hero-s-inner{
       height: 100%;
       .row{
@@ -597,7 +597,11 @@
                }   }
         }
         .img{
-            height: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        
         }
       }
     }
@@ -605,24 +609,22 @@
 }
 //  Tools
 .tools{
-    margin-bottom: 100px;
-   .box{
-       width: 400px;
-       height: 400px;
+  
+   .tools-box{ 
+       .tools-card{
+        height: 200px;
        background-color: $services-color;
-       margin: 10px;
        border-radius: 15px;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       flex-wrap: wrap;
-       h2{
-           font-weight: bold;
-           text-align: center;
-           margin-top: 10px;
-           line-height: 50px;
+       .img{
+           display: flex;
+          
+           img{
+               width: 100%;
+               height: 100%;
+           }
        }
-      
+       }
+       
    }
 }
 

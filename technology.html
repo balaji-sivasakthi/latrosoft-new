@@ -6,13 +6,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./scss/style.css">
-    <!-- Font-Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
-    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>  
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <link rel="stylesheet" href="./scss/style.css">
+ <!-- Font-Awesome -->
+ <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="./js/main.js"></script> 
   </head>
   <body>
       
@@ -46,10 +47,10 @@
     <!-- Technology-Hero -->
     <div class="container-fluid hero-technology  d-flex  ">
         <div class="container hero-s-inner">
-             <div class="row d-flex align-items-center">
+             <div class="row d-flex align-items-center flex-wrap-reverse">
                  <div class="title col-lg-6 d-flex flex-column justify-content-center" > <h1 class="font-weight-bold " style="line-height: 50px;">Creating a change that matters, by providing thoughtful solutions through technology</h1>
                      <button id="pro" class="start-btn px-3 py-2 my-3 w-50" >Get a Proposal</button></div>
-             <div class="img col-lg-6 d-flex algin-items-center py-4">
+             <div class="img col-lg-6 d-flex justify-content-center algin-items-center py-4">
                  <img src="./assets/hero-technology.png" alt="">
              </div>
              </div>
@@ -61,53 +62,76 @@
      <div class="container tools">
          <div class="tools-tech d-flex flex-column align-items-center my-3">
              <h1 style="font-weight: bold;">Tools and technologies we use</h1>
-             <p style="font-size: 18px; text-align: center;">We have a love towards technology and we are obsessed with experimenting <br>latest tools and trends</p>
+             <p style="font-size: 18px; text-align: center;">We have a love towards technology and we are obsessed with experimenting latest tools and trends</p>
          </div>
-        <div class="tools-box d-flex flex-column justify-content-center align-items-center">
-         <div class="first d-flex m-2 ">
-             <div class="box ">
-               <h2>iOS <br>Development</h2>
-               <img src="./assets/iostool.png" alt="">
+       <div class="tools-box d-flex justify-content-center align-items-center flex-wrap">
+           
+        <div class="tools-card d-flex flex-column justify-content-around col-lg-3 p-3 m-4">
+            <div class="title text-center">
+                <h4>IOS Development</h4>
              </div>
-             <div class="box">
-                <h2>Android <br>Development</h2>
-                <img src="./assets/androidtool.png" alt="">
-            </div>
-            <div class="box">
-                <h2>Web<br>
-                    Development</h2>
-                    <img src="./assets/webdevtool.png" alt=""> 
-            </div>
-         </div>
-         <div class="second  d-flex m-2">
-            <div class="box">
-                <h2>Cloud</h2>
-                <img src="./assets/cloudtool.png" alt="">
-            </div>
-            <div class="box">
-                <h2>Design</h2> 
-                <img src="./assets/designtool.png" alt="">
-           </div>
-           <div class="box">
-            <h2>Database</h2>
-            <img src="./assets/dbtool.png" alt="">
-           </div>
+             <div class="img">
+                 <img src="./assets/iostool.png" alt="">
+             </div>
+        </div>  
+        <div class="tools-card d-flex flex-column justify-content-around col-lg-3 p-3 m-4">
+            <div class="title text-center">
+                <h4>IOS Development</h4>
+             </div>
+             <div class="img">
+                 <img src="./assets/iostool.png" alt="">
+             </div>
         </div>
-        <div class="third  d-flex m-2">
-            <div class="box">
-                <h2>Server <br>Technologies</h2>
-                <img src="./assets/servertool.png" alt="">
-            </div>
-            <div class="box">
-                <h2>Virtual and <br>Mixed Reality</h2>
-                <img src="./assets/vrtool.png" alt="">
-           </div>
-           <div class="box">
-            <h2>Testing</h2>
-            <img src="./assets/testingtool.png" alt="">
-           </div>
+        <div class="tools-card d-flex flex-column justify-content-around col-lg-3 p-3 m-4">
+            <div class="title text-center">
+                <h4>IOS Development</h4>
+             </div>
+             <div class="img">
+                 <img src="./assets/iostool.png" alt="">
+             </div>
         </div>
-     </div>
+        <div class="tools-card d-flex flex-column justify-content-around col-lg-3 p-3 m-4">
+            <div class="title text-center">
+                <h4>IOS Development</h4>
+             </div>
+             <div class="img">
+                 <img src="./assets/iostool.png" alt="">
+             </div>
+        </div>
+            
+        <div class="tools-card d-flex flex-column justify-content-around col-lg-3 p-3 m-4">
+            <div class="title text-center">
+                <h4>IOS Development</h4>
+             </div>
+             <div class="img">
+                 <img src="./assets/iostool.png" alt="">
+             </div>
+        </div>  
+        <div class="tools-card d-flex flex-column justify-content-around col-lg-3 p-3 m-4">
+            <div class="title text-center">
+                <h4>IOS Development</h4>
+             </div>
+             <div class="img">
+                 <img src="./assets/iostool.png" alt="">
+             </div>
+        </div>
+        <div class="tools-card d-flex flex-column justify-content-around col-lg-3 p-3 m-4">
+            <div class="title text-center">
+                <h4>IOS Development</h4>
+             </div>
+             <div class="img">
+                 <img src="./assets/iostool.png" alt="">
+             </div>
+        </div>
+        <div class="tools-card d-flex flex-column justify-content-around col-lg-3 p-3 m-4">
+            <div class="title text-center">
+                <h4>IOS Development</h4>
+             </div>
+             <div class="img">
+                 <img src="./assets/iostool.png" alt="">
+             </div>
+        </div>
+       </div>
     </div>
 
    
@@ -159,7 +183,7 @@
     </div>
     
       <div class="copyright ">
-          <p>Latrosoft © Copyright 2021 |All Rights Reserved.</p>
+          <p class="text-center">Latrosoft © Copyright 2021 | All Rights Reserved.</p>
       </div>
     </div>
    <!-- Optional JavaScript -->
