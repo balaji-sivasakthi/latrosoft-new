@@ -344,6 +344,18 @@
   border-radius: 50%;
 }
 
+.testimonial .item-2 .item2-image img {
+  width: 60%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.testimonial .item-3 .item3-image img {
+  width: 60%;
+  height: 100%;
+  border-radius: 50%;
+}
+
 .prop-footer {
   height: 50vh;
 }
@@ -673,9 +685,13 @@
 }
 
 .tools .tools-box .tools-card {
-  height: 200px;
+  height: 350px;
   background-color: rgba(255, 0, 0, 0.11);
   border-radius: 15px;
+}
+
+.tools .tools-box .tools-card h4 {
+  font-weight: 600;
 }
 
 .tools .tools-box .tools-card .img {
@@ -687,5 +703,34 @@
 .tools .tools-box .tools-card .img img {
   width: 100%;
   height: 100%;
+}
+
+.hero-culture .hero-s-inner .start-btn {
+  text-decoration: none;
+  outline: none;
+  font-weight: bold;
+  color: white;
+  background-color: #FF6E04;
+  border: 0;
+}
+
+.hero-culture .hero-s-inner .start-btn:hover {
+  background-color: #fc8c3d;
+}
+
+.hero-culture .hero-s-inner img {
+  max-width: 100%;
+}
+
+.Start-ups .culture-2 img {
+  max-width: 100%;
+}
+
+.team-1 .culture-3 img {
+  max-width: 100%;
+}
+
+.team-2 .culture-4 img {
+  max-width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

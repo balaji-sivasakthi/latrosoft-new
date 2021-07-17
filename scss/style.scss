@@ -263,6 +263,28 @@
 
     }
 }
+    .item-2{
+
+    .item2-image{
+        img{
+            width: 60%;
+            height: 100%;
+            border-radius: 50%;
+        }
+
+}
+}
+    .item-3{
+
+    .item3-image{
+        img{
+            width: 60%;
+            height: 100%;
+            border-radius: 50%;
+        }
+
+}
+}
 
 }
 
@@ -612,9 +634,12 @@
   
    .tools-box{ 
        .tools-card{
-        height: 200px;
+        height: 350px;
        background-color: $services-color;
        border-radius: 15px;
+       h4{
+           font-weight: 600;
+       }
        .img{
            display: flex;
           
@@ -628,3 +653,47 @@
    }
 }
 
+// Culture
+
+.hero-culture{
+    .hero-s-inner{
+        .start-btn{
+            text-decoration: none;
+            outline: none;
+            font-weight: bold;
+            color: white;
+            background-color: $primary-color;
+            border: 0;
+            &:hover{
+                background-color: $primary-hover;
+           }   } 
+           img{
+            max-width: 100%; 
+    }
+}
+}
+.Start-ups{
+    .culture-2{
+        img{
+          max-width: 100%;  
+        }
+    }
+}
+
+.team-1{
+    .culture-3{
+        img {
+          max-width: 100%;
+         
+        }
+    };
+}
+
+.team-2{
+    .culture-4{
+        img{
+            max-width: 100%;
+        }
+    }
+
+}
