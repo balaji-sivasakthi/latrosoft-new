@@ -344,6 +344,18 @@
   border-radius: 50%;
 }
 
+.testimonial .item-2 .item2-image img {
+  width: 60%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.testimonial .item-3 .item3-image img {
+  width: 60%;
+  height: 100%;
+  border-radius: 50%;
+}
+
 .prop-footer {
   height: 50vh;
 }
@@ -458,6 +470,79 @@
   background-color: #fc8c3d !important;
 }
 
+.hero-services {
+  background-color: rgba(255, 0, 0, 0.11);
+}
+
+.hero-services .hero-s-inner {
+  height: 100%;
+}
+
+.hero-services .hero-s-inner .row {
+  height: 100%;
+}
+
+.hero-services .hero-s-inner .row .title {
+  height: 100%;
+}
+
+.hero-services .hero-s-inner .row .title h1 {
+  font-size: 30px;
+}
+
+.hero-services .hero-s-inner .row .title .start-btn {
+  text-decoration: none;
+  outline: none;
+  font-weight: bold;
+  color: white;
+  background-color: #FF6E04;
+  border: 0;
+}
+
+.hero-services .hero-s-inner .row .title .start-btn:hover {
+  background-color: #fc8c3d;
+}
+
+.hero-services .hero-s-inner .row .img {
+  height: 100%;
+}
+
+.digital .digital-box .box {
+  height: 200px;
+  background-color: rgba(255, 0, 0, 0.11);
+  margin: 30px;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.digital .digital-box .box p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.transparent .box h4 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.transparent .box p {
+  margin: 20px;
+  font-size: 15px;
+}
+
 .road-map .circle {
   padding: 15px;
   color: #2E2E2E;
@@ -504,7 +589,7 @@
   row-gap: 5;
   position: absolute;
   top: 0;
-  left: 30%;
+  left: 25%;
 }
 
 .road-map .line-1 .line-two {
@@ -513,29 +598,139 @@
 
 .road-map .line-1 .line-two svg {
   position: absolute;
-  bottom: -60%;
-  left: 10%;
+  top: 40%;
+  left: 7%;
 }
 
 .road-map .line-1 .line-three {
-  position: absolute;
-  left: 55%;
+  height: 50vh;
 }
 
-.road-map .line-1 .c-1 {
+.road-map .line-1 .line-three svg {
+  position: absolute;
+  bottom: -75%;
+  left: 7%;
+}
+
+.road-map .line-1 .line-four {
+  height: 50vh;
+}
+
+.road-map .line-1 .line-four svg {
+  position: absolute;
+  top: 130%;
+  right: 8%;
+}
+
+.road-map .c-1 {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.road-map .line-1 .c-2 {
+.road-map .c-2 {
   position: absolute;
-  top: 50%;
+  top: 30%;
   right: 0;
 }
 
-.road-map .line-1 .c-3 {
+.road-map .c-3 {
   position: absolute;
-  top: 30%;
+  top: -20%;
+  left: -5%;
+}
+
+.road-map .c-4 {
+  position: absolute;
+  top: 28%;
+  right: 0;
+}
+
+.road-map .c-5 {
+  position: absolute;
+  top: 95%;
+}
+
+.hero-technology .hero-s-inner {
+  height: 100%;
+}
+
+.hero-technology .hero-s-inner .row {
+  height: 100%;
+}
+
+.hero-technology .hero-s-inner .row .title {
+  height: 100%;
+}
+
+.hero-technology .hero-s-inner .row .title h1 {
+  font-size: 30px;
+}
+
+.hero-technology .hero-s-inner .row .title .start-btn {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: #FF6E04;
+  border: 0;
+}
+
+.hero-technology .hero-s-inner .row .title .start-btn:hover {
+  background-color: #fc8c3d;
+}
+
+.hero-technology .hero-s-inner .row .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.tools .tools-box .tools-card {
+  height: 350px;
+  background-color: rgba(255, 0, 0, 0.11);
+  border-radius: 15px;
+}
+
+.tools .tools-box .tools-card h4 {
+  font-weight: 600;
+}
+
+.tools .tools-box .tools-card .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tools .tools-box .tools-card .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-culture .hero-s-inner .start-btn {
+  text-decoration: none;
+  outline: none;
+  font-weight: bold;
+  color: white;
+  background-color: #FF6E04;
+  border: 0;
+}
+
+.hero-culture .hero-s-inner .start-btn:hover {
+  background-color: #fc8c3d;
+}
+
+.hero-culture .hero-s-inner img {
+  max-width: 100%;
+}
+
+.Start-ups .culture-2 img {
+  max-width: 100%;
+}
+
+.team-1 .culture-3 img {
+  max-width: 100%;
+}
+
+.team-2 .culture-4 img {
+  max-width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
