@@ -95,8 +95,8 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   font-family: "Poppins", sans-serif;
 }
 
@@ -361,9 +361,21 @@
 }
 
 .prop-footer .start-btn {
+  width: 300px;
+  height: 50px;
   text-decoration: none;
   outline: none;
   font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: large;
   color: white;
   background-color: #FF6E04;
   border: 0;
@@ -533,19 +545,33 @@
   margin-top: 10px;
 }
 
-.transparent .box h4 {
+.transparent {
+  display: inline;
+}
+
+.transparent .boxes {
+  margin: 10px;
+}
+
+.transparent .boxes .box img {
+  width: 100px;
+  height: 100px;
+}
+
+.transparent .boxes .box h5 {
   margin-top: 20px;
   font-weight: bold;
 }
 
-.transparent .box p {
+.transparent .boxes .box p {
+  width: 300px;
   margin: 20px;
   font-size: 15px;
 }
 
 .road-map .circle {
   padding: 15px;
-  color: #2E2E2E;
+  color: #2e2e2e;
   font-size: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -684,8 +710,14 @@
   height: 100%;
 }
 
+.tools {
+  max-width: 100%;
+  margin-bottom: 300px;
+}
+
 .tools .tools-box .tools-card {
-  height: 350px;
+  width: 400px;
+  height: 400px;
   background-color: rgba(255, 0, 0, 0.11);
   border-radius: 15px;
 }
