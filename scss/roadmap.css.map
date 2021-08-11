@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,aAAa,EAAE,GAAG;EAClB,gBAAgB,EAAE,qBAAqB;CAC1C",
+    "sources": [
+        "roadmap.scss"
+    ],
+    "names": [],
+    "file": "roadmap.css"
+}
