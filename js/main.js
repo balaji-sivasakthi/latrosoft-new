@@ -17,12 +17,14 @@ $(document).ready(function () {
 
     //proposal
     $('.start-btn').click(function () { 
+        $("body"). css("overflow", "hidden"); 
         $('.proposal').toggle();
         
     });
     $('.close').click(function () { 
+        $("body"). css("overflow", "scroll"); 
         $('.proposal').hide();
-        
+       
     });
 
     $('pro').click(function () { 

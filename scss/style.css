@@ -174,7 +174,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 1;
+  z-index: 99999;
   background-color: rgba(26, 26, 26, 0.8);
   display: none;
 }
@@ -340,9 +340,9 @@
 }
 
 .testimonial .item-1 .item1-image img {
-  width: 60%;
-  height: 100%;
-  border-radius: 50%;
+  width: 90%;
+  height: 90%;
+  border-radius: 100%;
 }
 
 .testimonial .item-2 .item2-image img {
@@ -825,5 +825,19 @@ input.invalid {
 /* Mark the steps that are finished and valid: */
 .step.finish {
   background-color: #ff7f08;
+}
+
+.mail {
+  outline: none;
+  font-weight: bold;
+  color: white;
+  background-color: #FF6E04;
+  border: 0;
+}
+
+.mail:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #fc8c3d;
 }
 /*# sourceMappingURL=style.css.map */
