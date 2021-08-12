@@ -57,7 +57,12 @@
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Axios -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="./js/main.js"></script>
+  <script src="./js/lsbot.js"></script>
 </head>
 
 <body>
@@ -89,7 +94,74 @@
         <div class="line"></div>
       </div>
     </div>
+    <div class="proposal">
+      <div class="box">
+        <div class="head p-5">
+          <h1>Get Start</h1>
+          <div class="close">X</div>
+          <hr>
+        </div>
+        <div class="main  d-flex justify-content-center align-items-center">
+          <form id="regForm" action="">
+
+
+
+            <!-- One "tab" for each step in the form: -->
+            <div class="tab">Name:
+              <p><input placeholder="First name" id="fname" oninput="this.className = ''"></p>
+              <p><input placeholder="Last name" id="sname" oninput="this.className = ''"></p>
+            </div>
+
+            <div class="tab">Contact Info:
+              <p><input placeholder="E-mail" id="email" oninput="this.className = ''"></p>
+              <p><input placeholder="Phone" id="phone" oninput="this.className = ''"></p>
+            </div>
+
+
+            <div class="tab">
+              Project Type:
+              <p>
+
+
+
+                <select class="form-control" name="" id="ptype" oninput="this.className = 'form-control'">
+                  <option>App Development</option>
+                  <option>Desktop Development</option>
+                  <option>Desktop Development</option>
+                </select>
+
+
+
+              </p>
+              <p><input placeholder="Budget" id="cost" oninput="this.className = ''"></p>
+              <p><input placeholder="Discription" id="dis" oninput="this.className = ''"></p>
+            </div>
+
+            <div style="overflow:auto;">
+              <div style="float:right;">
+                <button class="btn form-btn px-3 py-2 " type="button" id="prevBtn"
+                  onclick="nextPrev(-1)">Previous</button>
+                <button class="btn form-btn px-3 py-2 " type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+              </div>
+            </div>
+
+            <!-- Circles which indicates the steps of the form: -->
+            <div style="text-align:center;margin-top:40px;">
+              <span class="step"></span>
+              <span class="step"></span>
+              <span class="step"></span>
+              <span class="step"></span>
+            </div>
+
+          </form>
+        </div>
+
+
+      </div>
+
+    </div>
   </div>
+
   <!-- Technology-Hero -->
   <div class="container-fluid hero-technology d-flex">
     <div class="container hero-s-inner">
@@ -286,23 +358,20 @@
 
   <!-- footer -->
 
-  <div class="footer-down d-flex flex-column align-items-center">
+  <div class=" footer-down d-flex flex-column align-items-center">
     <div class="row footer-item col-12 d-flex justify-content-between">
       <div class="brand col-lg-4 col-sm-12 my-2">
-        <img src="./assets/footlogo.png" alt="" />
-        <h2>Latrosoft</h2>
-        <p>
-          Digitally empowering your business<br />
-          Execellent network assurance<br />
-          Developing solutions which creates revolution.
-        </p>
+        <img src="./assets/footlogo.png" alt="">
+        <h2 class="my-2" style="font-weight: bold;">Latrosoft</h2>
+        <p>Digitally empowering your business<br> Execellent network assurance<br> Developing solutions which
+          creates revolution.</p>
       </div>
 
       <div class="overview col-lg-2 col-sm-6 my-2">
         <h4>Overview</h4>
         <ul>
-          <li><a href="">Technology</a></li>
-          <li><a href="">Culture</a></li>
+          <li><a href="./technology.html">Technology</a></li>
+          <li><a href="./culture.html">Culture</a></li>
           <li><a href="">Portpolio</a></li>
           <li><a href="">Career</a></li>
         </ul>
@@ -311,7 +380,7 @@
       <div class="links col-lg-2 col-sm-6 my-2">
         <h4>Helpful Links</h4>
         <ul>
-          <li><a href="">Services</a></li>
+          <li><a href="./services.html">Services</a></li>
           <li><a href="">Supports</a></li>
           <li><a href="">Terms and Conditions</a></li>
           <li><a href="">Privacy Policy</a></li>
@@ -321,31 +390,29 @@
       <div class="contact col-lg-3 col-sm-6 my-2">
         <h4>Contact Us</h4>
         <ul>
-          <a href="#"><i style="font-size: 32px; margin-right: 10px" class="iconify"
-              data-icon="mdi:phone"></i>+91-9626666685</a><br />
-          <a href="#"><i style="font-size: 32px; margin-right: 10px" class="iconify"
-              data-icon="mdi:envelope"></i>Softlatro@gmail.com</a><br />
+          <a href="#"><i style="font-size: 24px ; margin-right:10px ;" class="iconify"
+              data-icon="mdi:phone"></i>+91-9626666685</a><br>
+          <a href="#"><i style="font-size: 24px; margin-right:10px;" class="iconify"
+              data-icon="mdi:envelope"></i>Softlatro@gmail.com</a><br>
         </ul>
         <h4 class="my-3">Social Media</h4>
         <div class="social-link">
-          <a href="https://www.facebook.com/latrosoft"><i style="font-size: 32px" class="iconify"
+          <a href="https://www.facebook.com/latrosoft"><i style="font-size: 24px;" class="iconify"
               data-icon="mdi:facebook" data-inline="false"></i></a>
-          <a href="https://www.instagram.com/latrosoft/"><i style="font-size: 32px" class="iconify"
+          <a href="https://www.instagram.com/latrosoft/"><i style="font-size: 24px;" class="iconify"
               data-icon="mdi:instagram" data-inline="false"></i></a>
-          <a href="https://twitter.com/latrosoft"><i style="font-size: 32px" class="iconify" data-icon="mdi:twitter"
+          <a href="https://twitter.com/latrosoft"><i style="font-size: 24px;" class="iconify" data-icon="mdi:twitter"
               data-inline="false"></i></a>
-          <a href="https://www.youtube.com/channel/UCK491hLt4cMof7NlTmHJeRg"><i style="font-size: 32px" class="iconify"
+          <a href="https://www.youtube.com/channel/UCK491hLt4cMof7NlTmHJeRg"><i style="font-size: 24px;" class="iconify"
               data-icon="mdi:youtube" data-inline="false"></i></a>
-          <a href="https://www.linkedin.com/company/latrosoft/"><i style="font-size: 32px" class="iconify"
+          <a href="https://www.linkedin.com/company/latrosoft/"><i style="font-size: 24px;" class="iconify"
               data-icon="mdi:linkedin" data-inline="false"></i></a>
         </div>
       </div>
     </div>
 
-    <div class="copyright">
-      <p class="text-center">
-        Latrosoft © Copyright 2021 | All Rights Reserved.
-      </p>
+    <div class="copyright ">
+      <p class="text-center">Latrosoft © Copyright 2021 |All Rights Reserved.</p>
     </div>
   </div>
   <!-- Optional JavaScript -->
@@ -360,6 +427,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script src="./js/formProposal.js"></script>
+  <script src="./js/lsbot.js"></script>
 </body>
 
 </html>

@@ -32,7 +32,23 @@ function nextPrev(n) {
   // if you have reached the end of the form... :
   if (currentTab >= x.length) {
     //...the form gets submitted:
-    document.getElementById("regForm").submit();
+
+
+    var fname = document.getElementById('fname').value;
+    var sname = document.getElementById('sname').value;
+    var fullName = fname + " " + sname;
+    var email = document.getElementById('email').value;
+    var phone = document.getElementById('phone').value;
+    var projectType = document.getElementById('ptype').value;
+    var cost = document.getElementById('cost').value;
+    var dis = document.getElementById('dis').value;
+
+
+
+
+
+    document.getElementById("regForm").addEventListener("onclick", sendMessage(fullName, phone, email, dis, cost, projectType));
+
     return false;
   }
   // Otherwise, display the correct tab:

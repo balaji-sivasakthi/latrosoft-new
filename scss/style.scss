@@ -84,7 +84,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-
+  z-index: 1;
   background-color: rgba(26, 26, 26, 0.8);
 
   display: none;
@@ -296,7 +296,7 @@
   font-family: $poppins;
   color: $footerh4-color;
   h4 {
-    font-weight: bolder;
+    font-weight: 500;
   }
   a {
     text-decoration: none;
