@@ -679,8 +679,14 @@ input {
   padding: 10px;
   width: 100%;
   font-size: 17px;
-  font-family: Raleway;
   border: 1px solid #aaaaaa;
+}
+
+input:nth-child(1){
+  margin-top: 10px;
+}
+select:nth-child(1){
+  margin-top: 10px;
 }
 
 /* Mark input boxes that gets an error on validation: */
